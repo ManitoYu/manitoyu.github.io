@@ -1,0 +1,19 @@
+{
+  "name": "manitoyu.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManitoYu/manitoyu.github.io.git"
+  },
+  "author": "Onionkings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ManitoYu/manitoyu.github.io/issues"
+  },
+  "homepage": "https://github.com/ManitoYu/manitoyu.github.io#readme"
+}
