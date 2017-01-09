@@ -7,11 +7,16 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 const extractCSS = new ExtractTextPlugin('app.css')
 
+const isDevelopment = process.env.NODE_ENV == 'development'
+
+const entry = ['./src']
+
+if (isDevelopment) {
+  entry.push('webpack-dev-server/client?http://192.168.1.112:3000')
+}
+
 module.exports = {
-  entry: [
-    'webpack-dev-server/client?http://192.168.1.112:3000',
-    './src'
-  ],
+  entry,
   output: {
     filename: 'bundle.js',
     path: path.resolve('./dist')
@@ -27,7 +32,7 @@ module.exports = {
     ]
   },
   postcss: [autoprefixer],
-  devtool: 'inline-source-map',
+  devtool: isDevelopment ? 'cheap-module-eval-source-map' : 'cheap-module-source-map',
   resolve: {
     extensions: ['', '.js', '.ts', '.tsx']
   },
@@ -50,7 +55,7 @@ module.exports = {
     }),
     // new webpack.optimize.UglifyJsPlugin(),
     new webpack.DefinePlugin({
-      'process.env': { NODE_ENV: JSON.stringify(process.NODE_ENV) }
+      'process.env': { NODE_ENV: JSON.stringify(process.env.NODE_ENV) }
     }),
     new webpack.ProvidePlugin({
     })
