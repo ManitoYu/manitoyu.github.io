@@ -1,0 +1,50 @@
+{
+  "name": "manitoyu.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "react-router": "^3.0.0",
+    "react-router-redux": "^4.0.7",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "compression-webpack-plugin": "^0.3.2",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "node-sass": "^4.1.1",
+    "postcss-loader": "^1.2.1",
+    "redux-devtools": "^3.3.1",
+    "redux-devtools-dock-monitor": "^1.1.1",
+    "redux-devtools-log-monitor": "^1.2.0",
+    "redux-logger": "^2.7.4",
+    "redux-thunk": "^2.1.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^1.3.2",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManitoYu/manitoyu.github.io.git"
+  },
+  "author": "Onionkings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ManitoYu/manitoyu.github.io/issues"
+  },
+  "homepage": "https://github.com/ManitoYu/manitoyu.github.io#readme"
+}

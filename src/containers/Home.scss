@@ -1,0 +1,44 @@
+.HomePage {
+  padding-top: 44px;
+  background-color: #313D4B;
+
+  .NameView {
+    height: 100%;
+
+    svg {
+      display: block;
+    }
+
+    &-text {
+      font-family: pacifico;
+      font-size: 120px;
+      text-anchor: middle;
+      fill: none;
+      stroke: #00BF7E;
+      fill: transparent;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: animate 4s linear;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes animate {
+      0% {
+        stroke-dashoffset: 1000;
+        fill: transparent;
+      }
+
+      50% {
+        stroke-dashoffset: 0;
+        fill: #00BF7E;
+      }
+
+      100% {
+        stroke-dashoffset: 1000;
+        fill: transparent;
+      }
+    }
+  }
+}
+

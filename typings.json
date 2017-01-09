@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "base16": "registry:dt/base16#1.0.0+20160921164505",
+    "react": "registry:npm/react#15.0.1+20170104200836",
+    "react-dom": "registry:npm/react-dom#15.0.1+20160826174104",
+    "react-redux": "registry:npm/react-redux#4.4.0+20160614222153",
+    "react-router": "registry:npm/react-router#2.4.0+20160915183637",
+    "react-router-redux": "registry:npm/react-router-redux#4.0.0+20160602212457",
+    "redux-devtools": "registry:dt/redux-devtools#3.0.0+20161129175600",
+    "redux-devtools-dock-monitor": "registry:dt/redux-devtools-dock-monitor#1.1.1+20160921164505",
+    "redux-devtools-log-monitor": "registry:dt/redux-devtools-log-monitor#1.0.11+20160921164505",
+    "redux-logger": "registry:dt/redux-logger#2.6.0+20160726205300",
+    "redux-thunk": "registry:npm/redux-thunk#2.0.0+20160525185520"
+  },
+  "globalDependencies": {
+    "classnames": "registry:dt/classnames#0.0.0+20161113184211",
+    "redux": "registry:dt/redux#3.5.2+20160703092728"
+  }
+}
